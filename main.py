@@ -546,7 +546,7 @@ def main():
             gameover_text1 = gameover_font.render("Your Score: ", True, WHITE)
             gameover_text1_rect = gameover_text1.get_rect()
             gameover_text1_rect.left, gameover_text1_rect.top = \
-                                (width - gameover_text1_rect.width) // 2, height // 2
+                                (width - gameover_text1_rect.width) // 2, height // 3
             screen.blit(gameover_text1, gameover_text1_rect)
 
             
